@@ -9,7 +9,7 @@ int main() {
     ifstream file("LineUp.txt"); //Assign file to be used
     if (!file) 
     {
-        cerr << "Error: could not open LineUp.txt" <<endl; //Error when files can't open
+        cerr << "Error: could not open LineUp.txt" <<endl; //Error message when files can't open
         return 1;
     }
 
